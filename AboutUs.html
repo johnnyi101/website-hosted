@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styleAboutUs.css">
+    <link href="css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <meta charset="UTF-8">
+    <title>SWR - About Us</title>
+
+</head>
+<body>
+<header>
+    <div class="w3-dropdown-click">
+        <img  src ="southwestern_rail_logo_short.png"  onclick="myFunction()" class="w3-button">
+        <div id="Demo" class="w3-dropdown-content w3-bar-block w3-animate-zoom">
+            <a href="AboutUs.html" class="w3-bar-item w3-button">About Us</a>
+            <a href="OurServices.html" class="w3-bar-item w3-button">Our Services</a>
+            <a href="OurTrains.html" class="w3-bar-item w3-button">Our Trains</a>
+            <a href="DRORP.html" class="w3-bar-item w3-button">Delay Rip-Off Re-Pay</a>
+            <a href="index.html" class="w3-bar-item w3-button">Back To Main Page</a>
+        </div>
+    </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("Demo");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+    </script>
+    <h1>South Worst Railways - Disappointing The South West Of England</h1>
+    <h2>About Us</h2>
+</header>
+<section>
+    <div>
+        <h3 class="hwhoweare">Who we are:</h3>
+        <p class = "whoweare">We are a bunch of jokers that are dedicated to giving you a the most uncomfortable and inconvenient commute.</br>
+            We are also committed to charging you unreasonable prices for your tickets ensuring that you pay huge amounts<br>
+             of money to be given the privilege of standing up on an overcrowded train as you send a whatsapp letting </br>
+            your colleagues know you will be late.</p>
+        <img src = "1_Mark-Hopwood.jpg" class = "boss" title = "Mark Hopwood Big Cheese of SWR"></div>
+
+    </div>
+    <div >
+        <h3 class="hwhatwedo">What We Do</h3>
+        <p class ="whatwedo">We are a company dedicated to running trains in the most incompetent way possible. Some of our trains </br>
+            arrive, some do not and some break down along the way. But you can rest assured that we are doing</br>
+            everything in our power to avoid doing our job properly.</p>
+        <img src = "skynews-south-western-railway_4827355.jpg" class = "train" title = "This is a train. It is delayed."></div>
+    </div>
+    <div >
+        <h3 class="hourcustomers">Our Customers</h3>
+        <p class ="ourcustomers">We pride ourselves on customer dissatisfaction and ensure this at all times. </br>
+            We are proud to serve the south of England`s most hacked off belligerent commuters. It is our keen </br>
+            interest to ensure that they are uncomfortable and late for everything. Sad, tired and irritable commuters</br>
+            we salute you, your bank accounts and your poor mental well-being.</p>
+        <img src = "skynews-commuter-strike_4854401.jpg" class = "customers" title = "Our customers enjoying the atmosphere on our trains."></div>
+    </div>
+
+    </div>
+</section>
+</body>
+</html>
