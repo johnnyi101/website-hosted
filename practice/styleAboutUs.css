@@ -1,0 +1,165 @@
+
+body
+{
+    background-color: #cce6fd;
+}
+img
+{
+    height: 100px;
+    width: 100px;
+    alignment: right;
+    alignment: top;
+    border-radius: inherit;
+}
+h1
+{
+    position: absolute;
+    top: 0px;
+    left: 150px;
+    font-family: Arial;
+    color: gray;
+}
+h2
+{
+    position: absolute;
+    top: 60px;
+    left: 150px;
+    font-family: Arial;
+    color: gray;
+}
+
+
+
+
+
+img
+{
+    width:150px;height:135px;
+}
+
+iframe
+{
+    display: block;
+    width: 800px;
+    height: 400px;
+    margin: 0 auto;
+    border: 0;
+    margin-top: 40px;
+}
+.hwhoweare
+{
+    position: absolute;
+    top: 200px;
+    left: 150px;
+    font-family: Arial;
+    color: gray;
+
+}
+.whoweare
+{
+    position: absolute;
+    top: 240px;
+    left: 150px;
+    font-family: Arial;
+    color: gray;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.boss
+{
+    position: absolute;
+    top: 200px;
+    right: 80px;
+    width:230px;height:150px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 20px;
+}
+
+
+.whatwedo
+{
+    position: absolute;
+    top: 450px;
+    left: 150px;
+    font-family: Arial;
+    color: gray;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.hwhatwedo
+{
+    position: absolute;
+    top: 410px;
+    left: 150px;
+    font-family: Arial;
+    color: gray;
+}
+.train
+{
+    position: absolute;
+    top: 410px;
+    right: 80px;
+    width:230px;height:150px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 20px;
+}
+
+.ourcustomers
+{
+    position: absolute;
+    top: 660px;
+    left: 150px;
+    font-family: Arial;
+    color: gray;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.hourcustomers
+{
+    position: absolute;
+    top: 620px;
+    left: 150px;
+    font-family: Arial;
+    color: gray;
+}
+.customers
+{
+    position: absolute;
+    top: 620px;
+    right: 80px;
+    width:230px;height:150px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

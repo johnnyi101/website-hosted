@@ -1,0 +1,47 @@
+body
+{
+    background-color: #cce6fd;
+}
+img
+{
+    height: 100px;
+    width: 100px;
+    alignment: right;
+    alignment: top;
+    border-radius: inherit;
+}
+h1
+{
+    position: absolute;
+    top: 0px;
+    left: 150px;
+    font-family: Arial;
+    color: gray;
+}
+h2
+{
+    position: absolute;
+    top: 60px;
+    left: 150px;
+    font-family: Arial;
+    color: gray;
+}
+
+
+
+
+
+img
+{
+    width:150px;height:135px;
+}
+
+iframe
+{
+    display: block;
+    width: 800px;
+    height: 400px;
+    margin: 0 auto;
+    border: 0;
+    margin-top: 40px;
+}
