@@ -4,11 +4,26 @@
     <link rel="stylesheet" href="styleLandingPage.css">
     <link href="css/all.css" rel="stylesheet">
     <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="3; url=AboutUs.html" />
     <title>SWR</title>
 </head>
 <body>
     <div class = "wrapper">
-        <button class="swr" onclick="location.href = 'AboutUs.html'">South Worst Railways</button>
+        <button class="swr"onclick="audio.play()" onclick="location.href = 'AboutUs.html'">South Worst Railways</button>
+        <script>
+            var audio = new Audio("train.mp3") ;
+
+            audio.oncanplaythrough = function(){
+                audio.play();
+            }
+
+            audio.loop = true;
+
+            audio.onended = function(){
+                audio.play();
+            }
+
+        </script>
     </div>
 <!------------------------------------------------------------------------------------------------------------------->
 <section class="stage">
